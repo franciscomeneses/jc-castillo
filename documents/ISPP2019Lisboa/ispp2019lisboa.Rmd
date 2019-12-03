@@ -38,8 +38,8 @@ rmarkdown::render('ispp2019lisboa.Rmd', 'xaringan::moon_reader')
 About macros.js: permite escalar las imágenes como [:scale 50%](path to image), hay si que grabar ese archivo js en el directorio.
 --->
 
-# Does information about inequality and poverty influence opportunity beliefs?
-## *A survey experiment*
+# ¿La información sobre desigualdad y pobreza influye en las creencias de oportunidades?
+## * Un experimento de encuesta *
 <br>
 <hr>
 ### Luis Maldonado, _Pontificia Universidad Católica de Chile_ - lmaldona@uc.cl
@@ -59,12 +59,12 @@ class: animated, fadeIn
 
 class: roja, middle, center, slideInRight
 
-# Background
+# Antecedentes
 
 ---
-## Research context
+## Contexto de investigación
 
-- FONDECYT grant 1160921: **The moral economy of meritocracy and redistributive preferences** (Juan Castillo, Luis Maldonado & Jorge Atria)
+- FONDECYT grant 1160921: **La economía moral de la meritocracia y las preferencias redistributivas** (Juan Castillo, Luis Maldonado & Jorge Atria)
 
 
 
@@ -72,60 +72,60 @@ class: roja, middle, center, slideInRight
 
   - 2016-2020
 
-  - Qualitative studies (interviews & focus groups)
+  - Estudios cualitativos (entrevistas y grupos focales)
 
-  - Secondary data analysis (ISSP)
+  - Análisis de datos secundarios (ISSP)
 
-  - Survey experiments
+  - Encuesta de experimentos
 
 --
 
-- More information & updates on our project website in Researchgate: [https://www.researchgate.net/project/The-moral-economy-of-meritocracy-and-redistributive-preferences](https://www.researchgate.net/project/The-moral-economy-of-meritocracy-and-redistributive-preferences)
+- Más información y actualizaciones en el sitio web de nuestro proyecto en Researchgate: [https://www.researchgate.net/project/The-moral-economy-of-meritocracy-and-redistributive-preferences](https://www.researchgate.net/project/The-moral-economy-of-meritocracy-and-redistributive-preferences)
 
 ---
-## Country context
+## Contexto del país
 
 .center[![:scale 90%](images/Rplot4.png)]
 
-.small[Source: OECD 2018 and PNUD 2017.]
+.small[Fuente: OECD 2018 and PNUD 2017.]
 
 ---
-## Country context
+## Contexto del país
 
 .center[![:scale 90%](images/Rplot5.png)]
 
-.small[Source: OECD 2018 and PNUD 2017.]
+.small[Fuente: OECD 2018 and PNUD 2017.]
 
 ---
-## Country context
+## Contexto del país
 
 .center[![:scale 100%](images/Rplot6.png)]
 
-.small[Source: WVS 1990-2012 and ISSP 2016. Figure on the left is level of agreement with *Incomes should be made more equal*; Figure on the right is option *Definitely should be the government’s responsibility to reduce income differences between the rich and the poor*]
+.small[Fuente: WVS 1990-2012 and ISSP 2016.  La figura de la izquierda es el nivel de acuerdo con *Los ingresos deben hacerse más iguales* ; La figura de la derecha es la opción *Definitivamente debería ser responsabilidad del gobierno reducir las diferencias de ingresos entre los ricos y los pobres*] 
 ---
-## Country context
+##  Contexto del país
 
 .center[![:scale 50%](images/Rplot7.png)]
 
-.small[Source: Pilot study (non representative of Chilean population). Question is: *Do you think that the quantity of poor people in Chile today is larger, smaller or about the same as it was 20 years ago?*]
+.small[Fuente: estudio piloto (no representativo de la población chilena). La pregunta es: *¿Cree que la cantidad de personas pobres en Chile hoy en día es mayor, menor o casi la misma que hace 20 años?* ]
 
 ---
 class: roja, middle, center, slideInRight
 
-# This study
+# Este estudio
 
 ---
-## Main concept: Meritocracy
+## Concepto principal: Meritocracia
 
-- Allocation of rewards according to personal effort and talent `r Cite(bib, c("young_rise_1962"))`
+- Asignación de recompensas según el esfuerzo personal y el talento `r Cite (bib, c (" young_rise_1962 "))`
 
-- Considered as a "myth" that legitimates inequality in modern societies `r Cite(bib, c("young_rise_1962", "hadjar_meritokratie_2008","kunovich_systems_2007", "mcnamee_meritocracy_2004","arrow_meritocracy_2000","@mijs_paradox_2019"))`
+-  Considerado como un "mito" que legitima la desigualdad en las sociedades modernas `r Cite (bib, c (" young_rise_1962 "," hadjar_meritokratie_2008 "," kunovich_systems_2007 "," mcnamee_meritocracy_2004 "," arrow_meritocracy_2000 "," @ mijs_parado_) _ )_)rrow_meritocracy_2000","@mijs_paradox_2019"))`
 
-- Different meritocratic dimensions `r Cite(bib, "castillo_meritocracia_2018")`
+- Diferentes dimensiones meritocráticas `r Cite(bib, "castillo_meritocracia_2018")`
 
-  - **perception** of meritocracy (descriptive)
+  -  **percepción** de meritocracia (descriptiva)
 
-  - **preferences** for meritocracy (normative)
+  -  **preferencias** para la meritocracia (normativa)
 
 ---
 class: middle, center
@@ -150,121 +150,122 @@ class: middle, center
 ---
 ## `r Citet(bib, "mccall_Exposure_2017")`
 
-- Inequality information -> opportunity beliefs ("get ahead" battery GSS/ISSP)
-  - more weight to structural factors (as wealthy family)
-  - less weight to individual factors (as hard work)
+- Información de desigualdad -> creencias de oportunidad (batería "get a head" GSS / ISSP)
+  - Más peso para los factores estructurales (como familia adinerada)
+  - Menos peso a factores individuales (como trabajo duro)
 
-## ... we add
 
-- Poverty information treatment
-- Separate opportunity items instead of structural & individual factors
-- Education item
-- Previous knowledge checks
+##  ... agregamos
+
+- Tratamiento de la información sobre la pobreza.
+- Elementos de oportunidad separados en lugar de factores estructurales e individuales.
+- Ítem de educación
+- Verificaciones de conocimientos previos
 
 ---
-## Objective & Hypoteses
+##  Objetivo e Hipotesis
 
-- **Objective**: We examine whether exposure to objective information about economic inequality and poverty affects opportunity beliefs
+-  ** Objetivo ** : Examinamos si la exposición a información objetiva sobre desigualdad económica y pobreza afecta las creencias de oportunidad
 
-- **Hypothesis**:
+-  ** Hipótesis ** :
 
-  - information about poverty reduction reinforce the meritocratic dream and therefore leads to believe more in individual than structural factors.
+  - la información sobre la reducción de la pobreza refuerza el sueño meritocrático y, por lo tanto, lleva a creer más en factores individuales que estructurales.
 
-  - information about large inequality undermines the meritocratic dream and therefore leads to believe more in structural than individual factors.
+  - la información sobre grandes desigualdades socava el sueño meritocrático y, por lo tanto, lleva a creer más en factores estructurales que individuales.
 
 ---
 class: roja, middle, center, slideInRight
 
-# Research design
+# Diseño de investigación
 
 ---
-## Data
+## Datos
 
-1.  Convenience sample for pilot study was collected in July (this week) 2019, by _Nequest_, an online panel company that works in Spain, Portugal, and Latin America.
 
-    -   N= 1,328 respondents that live in Santiago de Chile.
 
-    -   Duration (median): 11 minutes.
+1. _Nequest_ , una compañía de paneles en línea que trabaja en España, Portugal y América Latina   , recolectó una muestra de conveniencia para el estudio piloto en julio 2019 .
 
-    -   96% of participants finish the questionary.
+    -    N = 1,328 encuestados que viven en Santiago de Chile.
 
-    -   Effective sample has 794 respondents.
+    -    Duración (mediana): 11 minutos.
 
-    -   We use quotes for gender, education, and age: 55% women, 95% has secondary or higher.
+    -    96% de los participantes terminan el cuestionario.
 
-2.  Questionnaire and random assignment by using _Qualtrics_.
+    -    La muestra efectiva tiene 794 encuestados.
+
+    -    Usamos cuotas por género, educación y edad: 55% mujeres, 95% tiene secundaria o superior.
+
+2.   Cuestionario y asignación aleatoria usando _Qualtrics_ .
 
 ---
-## Treatments
+##  Tratamientos
 
--   Three conditions
+-    Tres condiciones
 
-    1.  **Poverty condition**: Information about evolution of poverty in Chile during 1990-2015.
+    1.   **Condición de pobreza** : Información sobre la evolución de la pobreza en Chile durante 1990-2015.
 
-    2.  **Control condition**: Information about consume of cigarette in Chile during the last decades.
+    2.   **Condición de control** : Información sobre el consumo de cigarrillos en Chile durante las últimas décadas.
 
-    3.  **Inequality condition**: Information about income inequality in Chile in terms of index 10/10 that shows Chile as one of the countries with the highest income inequality within OECD.
+    3.   **Condición de desigualdad** : Información sobre la desigualdad de ingresos en Chile en términos del índice 10/10 que muestra a Chile como uno de los países con mayor desigualdad de ingresos dentro de la OCDE.
 
-- We designed _manipulation checks_ for each one of these three conditions.
+- Diseñamos _comprobaciones de manipulación_ para cada una de estas tres condiciones.
+
 ---
-### 1. Poverty condition: "A series of studies show a decrease in poverty in Chile during the last decades ..."
+###  1. Condición de pobreza: "Una serie de estudios muestran una disminución de la pobreza en Chile durante las últimas décadas ..."
 
 .center[![:scale 80%](images/fig3.png)]
 
 ---
-### 1. Poverty condition: "A series of studies show a decrease in poverty in Chile during the last decades ..."
+###  1. Condición de pobreza: "Una serie de estudios muestran una disminución de la pobreza en Chile durante las últimas décadas ..."
 
 .center[![:scale 82%](images/poor2.png)]
 
 ---
-### 2. Control condition: "A series of studies show a decrease in cigarretes consumption in Chile during the last decades ..."
+###  2. Condición de control: "Una serie de estudios muestran una disminución en el consumo de cigarros en Chile durante las últimas décadas ..."
 
 .center[![:scale 90%](images/cigarretes.png)]
 
 ---
-### 3. Inequality condition: "A series of studies show that Chile presents a high level of economic inequality ..."
+###  3. Condición de desigualdad: "Una serie de estudios muestran que Chile presenta un alto nivel de desigualdad económica ..."
 
 .center[![:scale 65%](images/fig6.png)]
 
 
 ---
-## Outcomes & moderators
+##  Resultados y moderadores
 
--   Opportunity beliefs: Battery of ISSP, social inequality module.
+-    Creencias de oportunidad: batería de ISSP, módulo de desigualdad social.
 
-    -   **Structural factors**: a) coming from a wealthy family and b) having well-educated parents.
+    -    ** Factores estructurales ** : a) provenientes de una familia rica y b) teniendo padres bien educados.
 
-    -   **Individual factors**: c) hard work and d) ambition.
+    -    ** Factores individuales ** : c) trabajo duro y d) ambición.
 
-    -   We also use the item e) having a good education yourself.
+    -    También usamos el ítem e) tener una buena educación usted mismo.
 
---
+-   Moderadores:
 
--  Moderators:
+    -  **Igualitarismo** :"los ingresos deberían hacerse más iguales, aun cuando el esfuerzo individual no sea recompensado" (1), o "el esfuerzo individual debería ser recompensado a pesar de generar diferencias de ingresos" (10)
 
-    - **Egalitarianism**: "income should be made more equal, even though individual effort is not rewarded" (1), or "individual effort should be rewarded despite of generating income differences" (10)
-
-    - **Perception of poverty evolution**: increased; the same, decreased.
-
+    -  **Percepción de la evolución de la pobreza** : mayor; lo mismo, disminuido.
 
 ---
-##  Covariates and method
+##   Covariables y método
 
--   **Covariates**: socio-demographic characteristics.
+-    **Covariables** : características sociodemográficas.
 
 
--   **Methods**
+-    **Métodos**
 
-    -   Randomization: Covariates are balanced among treatment conditions.
+    -    Aleatorización: las covariables se equilibran entre las condiciones de tratamiento.
 
-    -   Responses to manipulation checks are associated with socio-demographic variables.
+    - Las respuestas a los controles de manipulación están asociadas con variables sociodemográficas.
 
-    -   Intent to treat effect (ITT) with regressions for ordinal dependent variables.
+    -    Intento de tratar el efecto (ITT) con regresiones para variables dependientes ordinales.
 
 ---
 class: roja, middle, center, slideInRight
 
-# Results
+# Resultados
 
 ---
 class: middle, center
@@ -323,9 +324,8 @@ class: middle, center
 <td style="padding-right: 12px; border: none;" colspan="7"><span style="font-size:0.8em"><sup style="vertical-align: 0px;">***</sup>p &lt; 0.01, <sup style="vertical-align: 0px;">**</sup>p &lt; 0.05, <sup style="vertical-align: 0px;">*</sup>p &lt; 0.1</span></td>
 </tr>
 </table>
-
 ---
-## The effect of poverty condition on **having a good education yourself** by moderators
+## El efecto de la condición de pobreza en **tener una buena educación usted mismo** por parte de los moderadores
 
 .center[![:scale 80%](images/Rplot2_2019.png)]
 
@@ -333,40 +333,41 @@ class: middle, center
 ---
 class: roja, middle, center, slideInRight
 
-# Discussion
+# Discusión
 
 ---
 class: inverse, middle
 
--   Critical role of contexts: increasing economic oppotunities vs. higher economic inequality.
+-    Papel crítico de los contextos: aumentar las oportunidades económicas versus a una mayor desigualdad económica.
 
--   Significant effect of poverty’s information on *having a good
-    education yourself*.
+-    Efecto significativo de la información de pobreza sobre * tener un buen
+    educación tu mismo *.
 
--   Opportunity model of beliefs about economic inequality
+-    Modelo de oportunidad de creencias sobre desigualdad económica
 
-    1.  **Open question I**: Descriptive analysis suggests a rising demand for redistribution in a context of increasing economic opportunities.
+    1.   **Pregunta abierta I** : el análisis descriptivo sugiere una demanda creciente de redistribución en un contexto de oportunidades económicas crecientes.
 
-    2.  **Open question II**: Explanatory mechanisms of the effect of perceptions of economic inequality on opportunity beliefs.
+    2.   **Pregunta abierta II** : Mecanismos explicativos del efecto de las percepciones de la desigualdad económica en las creencias de oportunidad.
 
----
-class: inverse
-
-## Current stage: Design of the final study
-
-1. **Effect of information about inequality and poverty on opportunity beliefs**
-
-    -   Online Panel by using Netquest with three waves: a) first to collect pre-treatment information (covariates and moderators); b) treatments and outcomes; c) follow up to evaluate persistence of the effects.
-
-    -   To include all relevant items to measure opportunity beliefs.
-
-    -   Moderation: egalitarianism and perception of poverty development.
-
-2.  Registration of pre-analysis plan.
 
 ---
 class: inverse
-# References
+
+##  Etapa actual: diseño del estudio final
+
+1.  ** Efecto de la información sobre desigualdad y pobreza en las creencias de oportunidad **
+
+    -    Panel en línea utilizando Netquest con tres olas: a) primero para recopilar información previa al tratamiento (covariables y moderadores); b) tratamientos y resultados; c) seguimiento para evaluar la persistencia de los efectos.
+
+    -    Incluir todos los elementos relevantes para medir las creencias de oportunidad.
+
+    -    Moderación: igualitarismo y percepción del desarrollo de la pobreza.
+
+2.   Registro del plan de preanálisis en OFS.
+
+---
+class: inverse
+#  Referencias
 
 .small[
 ```{r, results='asis', echo=FALSE}
@@ -376,10 +377,10 @@ PrintBibliography(bib)
 ---
 class: inverse, center
 
-## Does information about inequality and poverty influence opportunity beliefs?
+##  ¿La información sobre desigualdad y pobreza influye en las creencias de oportunidad?
 <hr>
 ### Luis Maldonado, _Pontificia Universidad Católica de Chile_ - lmaldona@uc.cl
 ### Juan Carlos Castillo, _Universidad de Chile & COES_
 ### (Leslie McCall, _Stone Center of Economic Inequality_)
 
-### ... also with the contribution of our research assistants Julio Iturra & Constanza Ayala
+### ... ... también con la contribución de nuestros asistentes de investigación Julio Iturra y Constanza Ayala
